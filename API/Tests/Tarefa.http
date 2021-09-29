@@ -1,0 +1,13 @@
+###Create - criar
+POST https://localhost:5001/api/tarefa/novatarefa
+Content-Type: application/json
+
+{   
+    "Nome" : "Tarefa",
+    "Descricao" : "Descrição",
+    "Responsavel" : "Eliane e Maicon",
+    "Data" : "29/09/2021"
+}
+
+### Read - Listar
+GET https://localhost:5001/api/tarefa/listadetarefas
