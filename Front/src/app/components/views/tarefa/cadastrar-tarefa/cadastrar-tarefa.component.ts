@@ -30,7 +30,9 @@ casdastrarTarefa(): void{
   
   };
 
-  this.service.create(tarefa).subscribe((pessoa) => {}); 
+  this.service.create(tarefa).subscribe((tarefa) => {
+    this.router.navigate(["listar/tarefa"]);
+  }); 
   
 }
 
