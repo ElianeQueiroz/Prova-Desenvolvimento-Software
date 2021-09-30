@@ -1,0 +1,22 @@
+<div id="Nome">
+    <label for="Nome" >Nome da tarefa:</label><br>
+    <input type="text" name="Nome" [(ngModel)]= "Nome" />
+</div>
+
+<div id="Descricao">
+    <label for="Descricao">Descrição</label><br>
+    <input type="text" name="Descricao" [(ngModel)]= "Descricao"/>
+</div>
+
+<div id="Responsavel">
+    <label for="Responsavel">Responsavel:</label><br>
+    <input type="text" name="Responsavel" [(ngModel)]= "Responsavel"/>
+</div>
+
+<div id="Data">
+    <label for="Data">Data:</label><br>
+    <input type="text" name="Data" [(ngModel)]= "Data"/>
+</div>
+<br>
+
+<button (click)="casdastrarTarefa()">Cadastrar</button>
